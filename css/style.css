@@ -1,0 +1,143 @@
+* {
+    outline: none;
+}
+
+body {
+    margin-top: 10px;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6em;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a {
+    background-image: linear-gradient(to bottom, #4194fb 0, #4ca3ff 100%);
+    border-radius: 10px;
+}
+
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #2178d2 0, #378bca 100%);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(239, 239, 239);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9d9d9d;
+}
+
+h1 {
+    color: #2B80CF;
+    font-family: 'Lobster', cursive;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h1:after,
+h1:before {
+    content: "\f121";
+    color: #000;
+    font-size: 50px;
+    font-family: FontAwesome;
+    text-align: center;
+}
+
+.jumbotron {
+    /*box-shadow: 14px 14px 20px 0px rgba(125, 113, 113, 0.27);*/
+    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+
+/* 
+#my-img{
+	height: 300px;
+	border-radius: 50%;
+	background: #000;	
+	background-image: url(../img/mahmud.jpg) ;
+	background-repeat: no-repeat;
+	background-position:  50% 50%;
+	background-size: cover;
+} */
+
+#my-img {
+    height: 300px;
+}
+
+hr {
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+}
+
+hr#test {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    border-color: #888;
+}
+
+hr#test:after {
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+    color: #888;
+    background-color: #fff;
+}
+
+@media only screen and (max-width:991px) {
+    #my-img img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #work-photos .row img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 63px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+
+i.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+i.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+i.fa-linkedin-square:hover {
+    color: #0077B5;
+}
